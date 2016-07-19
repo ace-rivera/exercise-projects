@@ -21,6 +21,10 @@
 		BAE13F7C1D3DD774003775AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE13F7B1D3DD774003775AD /* Main.storyboard */; };
 		BAE13F7E1D3DF194003775AD /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE13F7D1D3DF194003775AD /* AlertController.swift */; };
 		BAE13F801D3DF60B003775AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAE13F7F1D3DF60B003775AD /* GoogleService-Info.plist */; };
+		717CA0401D3DCFFA006BC21D /* HeroesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717CA03F1D3DCFFA006BC21D /* HeroesStoryboard.storyboard */; };
+		717CA0441D3DD126006BC21D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CA0421D3DD126006BC21D /* CustomCollectionViewCell.swift */; };
+		717CA0451D3DD126006BC21D /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717CA0431D3DD126006BC21D /* CustomCollectionViewCell.xib */; };
+		717CA0481D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CA0471D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		BAE13F7F1D3DF60B003775AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4C10F47F395774EEEEA2AAF /* Pods_VaingloryGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaingloryGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69A80FD67E95017F0EB07C8 /* Pods-VaingloryGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaingloryGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaingloryGuide/Pods-VaingloryGuide.release.xcconfig"; sourceTree = "<group>"; };
+		717CA03F1D3DCFFA006BC21D /* HeroesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeroesStoryboard.storyboard; sourceTree = "<group>"; };
+		717CA0421D3DD126006BC21D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		717CA0431D3DD126006BC21D /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		717CA0471D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesMainPageCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,11 +141,18 @@
 		59BCB0D61D3CA33500774289 /* VaingloryGuide */ = {
 			isa = PBXGroup;
 			children = (
+
 				BAE13F7D1D3DF194003775AD /* AlertController.swift */,
 				BAE13F761D3DD1B8003775AD /* SignUpPage.swift */,
 				BAE13F741D3DD18D003775AD /* LogInPage.swift */,
 				59BCB0D71D3CA33500774289 /* AppDelegate.swift */,
 				59BCB0D91D3CA33500774289 /* ViewController.swift */,
+				717CA0461D3DD1C2006BC21D /* HeroesMainPage */,
+				717CA0411D3DD10F006BC21D /* CustomCollectionCell */,
+				59BCB0D71D3CA33500774289 /* AppDelegate.swift */,
+				59BCB0D91D3CA33500774289 /* ViewController.swift */,
+				59BCB0DB1D3CA33500774289 /* Main.storyboard */,
+				717CA03F1D3DCFFA006BC21D /* HeroesStoryboard.storyboard */,
 				59BCB0E11D3CA33500774289 /* Assets.xcassets */,
 				59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */,
 				59BCB0E61D3CA33500774289 /* Info.plist */,
@@ -165,6 +180,23 @@
 				59BCB0FC1D3CA33500774289 /* Info.plist */,
 			);
 			path = VaingloryGuideUITests;
+			sourceTree = "<group>";
+		};
+		717CA0411D3DD10F006BC21D /* CustomCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				717CA0421D3DD126006BC21D /* CustomCollectionViewCell.swift */,
+				717CA0431D3DD126006BC21D /* CustomCollectionViewCell.xib */,
+			);
+			path = CustomCollectionCell;
+			sourceTree = "<group>";
+		};
+		717CA0461D3DD1C2006BC21D /* HeroesMainPage */ = {
+			isa = PBXGroup;
+			children = (
+				717CA0471D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift */,
+			);
+			path = HeroesMainPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +311,11 @@
 				BAE13F801D3DF60B003775AD /* GoogleService-Info.plist in Resources */,
 				59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */,
 				BAE13F7C1D3DD774003775AD /* Main.storyboard in Resources */,
+				717CA0401D3DCFFA006BC21D /* HeroesStoryboard.storyboard in Resources */,
+				59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */,
+				717CA0451D3DD126006BC21D /* CustomCollectionViewCell.xib in Resources */,
+				59BCB0DD1D3CA33500774289 /* Main.storyboard in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +393,9 @@
 				59BCB0DA1D3CA33500774289 /* ViewController.swift in Sources */,
 				59BCB0E01D3CA33500774289 /* VaingloryGuide.xcdatamodeld in Sources */,
 				BAE13F7E1D3DF194003775AD /* AlertController.swift in Sources */,
+				717CA0481D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift in Sources */,
 				59BCB0D81D3CA33500774289 /* AppDelegate.swift in Sources */,
+				717CA0441D3DD126006BC21D /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
