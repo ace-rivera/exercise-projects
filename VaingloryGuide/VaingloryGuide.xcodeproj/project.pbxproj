@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		59BCB0D81D3CA33500774289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0D71D3CA33500774289 /* AppDelegate.swift */; };
 		59BCB0DA1D3CA33500774289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0D91D3CA33500774289 /* ViewController.swift */; };
-		59BCB0DD1D3CA33500774289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0DB1D3CA33500774289 /* Main.storyboard */; };
 		59BCB0E01D3CA33500774289 /* VaingloryGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0DE1D3CA33500774289 /* VaingloryGuide.xcdatamodeld */; };
 		59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0E11D3CA33500774289 /* Assets.xcassets */; };
 		59BCB0E51D3CA33500774289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */; };
 		59BCB0F01D3CA33500774289 /* VaingloryGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0EF1D3CA33500774289 /* VaingloryGuideTests.swift */; };
 		59BCB0FB1D3CA33500774289 /* VaingloryGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0FA1D3CA33500774289 /* VaingloryGuideUITests.swift */; };
+		72F906DDD3971DEFEFE5BF5E /* Pods_VaingloryGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C10F47F395774EEEEA2AAF /* Pods_VaingloryGuide.framework */; };
+		BAE13F751D3DD18D003775AD /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE13F741D3DD18D003775AD /* LogInPage.swift */; };
+		BAE13F771D3DD1B8003775AD /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE13F761D3DD1B8003775AD /* SignUpPage.swift */; };
+		BAE13F7A1D3DD5F0003775AD /* User Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE13F791D3DD5F0003775AD /* User Registration.storyboard */; };
+		BAE13F7C1D3DD774003775AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE13F7B1D3DD774003775AD /* Main.storyboard */; };
+		BAE13F7E1D3DF194003775AD /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE13F7D1D3DF194003775AD /* AlertController.swift */; };
+		BAE13F801D3DF60B003775AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAE13F7F1D3DF60B003775AD /* GoogleService-Info.plist */; };
 		717CA0401D3DCFFA006BC21D /* HeroesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717CA03F1D3DCFFA006BC21D /* HeroesStoryboard.storyboard */; };
 		717CA0441D3DD126006BC21D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CA0421D3DD126006BC21D /* CustomCollectionViewCell.swift */; };
 		717CA0451D3DD126006BC21D /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717CA0431D3DD126006BC21D /* CustomCollectionViewCell.xib */; };
@@ -42,7 +48,6 @@
 		59BCB0D41D3CA33500774289 /* VaingloryGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaingloryGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BCB0D71D3CA33500774289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59BCB0D91D3CA33500774289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59BCB0DC1D3CA33500774289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59BCB0DF1D3CA33500774289 /* VaingloryGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VaingloryGuide.xcdatamodel; sourceTree = "<group>"; };
 		59BCB0E11D3CA33500774289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59BCB0E41D3CA33500774289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +58,15 @@
 		59BCB0F61D3CA33500774289 /* VaingloryGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaingloryGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BCB0FA1D3CA33500774289 /* VaingloryGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaingloryGuideUITests.swift; sourceTree = "<group>"; };
 		59BCB0FC1D3CA33500774289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF931CC1307B2E2E4E226BE /* Pods-VaingloryGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaingloryGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaingloryGuide/Pods-VaingloryGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		BAE13F741D3DD18D003775AD /* LogInPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		BAE13F761D3DD1B8003775AD /* SignUpPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		BAE13F791D3DD5F0003775AD /* User Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "User Registration.storyboard"; sourceTree = "<group>"; };
+		BAE13F7B1D3DD774003775AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BAE13F7D1D3DF194003775AD /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		BAE13F7F1D3DF60B003775AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4C10F47F395774EEEEA2AAF /* Pods_VaingloryGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaingloryGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69A80FD67E95017F0EB07C8 /* Pods-VaingloryGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaingloryGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaingloryGuide/Pods-VaingloryGuide.release.xcconfig"; sourceTree = "<group>"; };
 		717CA03F1D3DCFFA006BC21D /* HeroesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeroesStoryboard.storyboard; sourceTree = "<group>"; };
 		717CA0421D3DD126006BC21D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		717CA0431D3DD126006BC21D /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F906DDD3971DEFEFE5BF5E /* Pods_VaingloryGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E78C32F07DDE3FAC6036DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C10F47F395774EEEEA2AAF /* Pods_VaingloryGuide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E35C633357BCDDB08EC2420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF931CC1307B2E2E4E226BE /* Pods-VaingloryGuide.debug.xcconfig */,
+				D69A80FD67E95017F0EB07C8 /* Pods-VaingloryGuide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		59BCB0CB1D3CA33400774289 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +123,8 @@
 				59BCB0EE1D3CA33500774289 /* VaingloryGuideTests */,
 				59BCB0F91D3CA33500774289 /* VaingloryGuideUITests */,
 				59BCB0D51D3CA33500774289 /* Products */,
+				4E35C633357BCDDB08EC2420 /* Pods */,
+				1E78C32F07DDE3FAC6036DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +141,12 @@
 		59BCB0D61D3CA33500774289 /* VaingloryGuide */ = {
 			isa = PBXGroup;
 			children = (
+
+				BAE13F7D1D3DF194003775AD /* AlertController.swift */,
+				BAE13F761D3DD1B8003775AD /* SignUpPage.swift */,
+				BAE13F741D3DD18D003775AD /* LogInPage.swift */,
+				59BCB0D71D3CA33500774289 /* AppDelegate.swift */,
+				59BCB0D91D3CA33500774289 /* ViewController.swift */,
 				717CA0461D3DD1C2006BC21D /* HeroesMainPage */,
 				717CA0411D3DD10F006BC21D /* CustomCollectionCell */,
 				59BCB0D71D3CA33500774289 /* AppDelegate.swift */,
@@ -116,7 +156,10 @@
 				59BCB0E11D3CA33500774289 /* Assets.xcassets */,
 				59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */,
 				59BCB0E61D3CA33500774289 /* Info.plist */,
+				BAE13F7F1D3DF60B003775AD /* GoogleService-Info.plist */,
 				59BCB0DE1D3CA33500774289 /* VaingloryGuide.xcdatamodeld */,
+				BAE13F791D3DD5F0003775AD /* User Registration.storyboard */,
+				BAE13F7B1D3DD774003775AD /* Main.storyboard */,
 			);
 			path = VaingloryGuide;
 			sourceTree = "<group>";
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59BCB0FF1D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuide" */;
 			buildPhases = (
+				0577F721DB388E344E5C0058 /* [CP] Check Pods Manifest.lock */,
 				59BCB0D01D3CA33500774289 /* Sources */,
 				59BCB0D11D3CA33500774289 /* Frameworks */,
 				59BCB0D21D3CA33500774289 /* Resources */,
+				2C6AEC4284205C8B4D5A8E63 /* [CP] Embed Pods Frameworks */,
+				BDEB197B46446033CD3047DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,10 +307,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				59BCB0E51D3CA33500774289 /* LaunchScreen.storyboard in Resources */,
+				BAE13F7A1D3DD5F0003775AD /* User Registration.storyboard in Resources */,
+				BAE13F801D3DF60B003775AD /* GoogleService-Info.plist in Resources */,
+				59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */,
+				BAE13F7C1D3DD774003775AD /* Main.storyboard in Resources */,
 				717CA0401D3DCFFA006BC21D /* HeroesStoryboard.storyboard in Resources */,
 				59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */,
 				717CA0451D3DD126006BC21D /* CustomCollectionViewCell.xib in Resources */,
 				59BCB0DD1D3CA33500774289 /* Main.storyboard in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +335,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0577F721DB388E344E5C0058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6AEC4284205C8B4D5A8E63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaingloryGuide/Pods-VaingloryGuide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDEB197B46446033CD3047DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaingloryGuide/Pods-VaingloryGuide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59BCB0D01D3CA33500774289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE13F751D3DD18D003775AD /* LogInPage.swift in Sources */,
+				BAE13F771D3DD1B8003775AD /* SignUpPage.swift in Sources */,
 				59BCB0DA1D3CA33500774289 /* ViewController.swift in Sources */,
 				59BCB0E01D3CA33500774289 /* VaingloryGuide.xcdatamodeld in Sources */,
+				BAE13F7E1D3DF194003775AD /* AlertController.swift in Sources */,
 				717CA0481D3DD1E3006BC21D /* HeroesMainPageCollectionViewController.swift in Sources */,
 				59BCB0D81D3CA33500774289 /* AppDelegate.swift in Sources */,
 				717CA0441D3DD126006BC21D /* CustomCollectionViewCell.swift in Sources */,
@@ -329,14 +431,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59BCB0DB1D3CA33500774289 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59BCB0DC1D3CA33500774289 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +529,7 @@
 		};
 		59BCB1001D3CA33500774289 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF931CC1307B2E2E4E226BE /* Pods-VaingloryGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VaingloryGuide/Info.plist;
@@ -446,6 +541,7 @@
 		};
 		59BCB1011D3CA33500774289 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69A80FD67E95017F0EB07C8 /* Pods-VaingloryGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VaingloryGuide/Info.plist;
