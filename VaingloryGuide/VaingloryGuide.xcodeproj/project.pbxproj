@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59BCB0D81D3CA33500774289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0D71D3CA33500774289 /* AppDelegate.swift */; };
+		59BCB0DA1D3CA33500774289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0D91D3CA33500774289 /* ViewController.swift */; };
+		59BCB0DD1D3CA33500774289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0DB1D3CA33500774289 /* Main.storyboard */; };
+		59BCB0E01D3CA33500774289 /* VaingloryGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0DE1D3CA33500774289 /* VaingloryGuide.xcdatamodeld */; };
+		59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0E11D3CA33500774289 /* Assets.xcassets */; };
+		59BCB0E51D3CA33500774289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */; };
+		59BCB0F01D3CA33500774289 /* VaingloryGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0EF1D3CA33500774289 /* VaingloryGuideTests.swift */; };
+		59BCB0FB1D3CA33500774289 /* VaingloryGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BCB0FA1D3CA33500774289 /* VaingloryGuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59BCB0EC1D3CA33500774289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BCB0CC1D3CA33500774289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BCB0D31D3CA33500774289;
+			remoteInfo = VaingloryGuide;
+		};
+		59BCB0F71D3CA33500774289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BCB0CC1D3CA33500774289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BCB0D31D3CA33500774289;
+			remoteInfo = VaingloryGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59BCB0D41D3CA33500774289 /* VaingloryGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaingloryGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BCB0D71D3CA33500774289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59BCB0D91D3CA33500774289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59BCB0DC1D3CA33500774289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59BCB0DF1D3CA33500774289 /* VaingloryGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VaingloryGuide.xcdatamodel; sourceTree = "<group>"; };
+		59BCB0E11D3CA33500774289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BCB0E41D3CA33500774289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59BCB0E61D3CA33500774289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BCB0EB1D3CA33500774289 /* VaingloryGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaingloryGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BCB0EF1D3CA33500774289 /* VaingloryGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaingloryGuideTests.swift; sourceTree = "<group>"; };
+		59BCB0F11D3CA33500774289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BCB0F61D3CA33500774289 /* VaingloryGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaingloryGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BCB0FA1D3CA33500774289 /* VaingloryGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaingloryGuideUITests.swift; sourceTree = "<group>"; };
+		59BCB0FC1D3CA33500774289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59BCB0D11D3CA33500774289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0E81D3CA33500774289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0F31D3CA33500774289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59BCB0CB1D3CA33400774289 = {
+			isa = PBXGroup;
+			children = (
+				59BCB0D61D3CA33500774289 /* VaingloryGuide */,
+				59BCB0EE1D3CA33500774289 /* VaingloryGuideTests */,
+				59BCB0F91D3CA33500774289 /* VaingloryGuideUITests */,
+				59BCB0D51D3CA33500774289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59BCB0D51D3CA33500774289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59BCB0D41D3CA33500774289 /* VaingloryGuide.app */,
+				59BCB0EB1D3CA33500774289 /* VaingloryGuideTests.xctest */,
+				59BCB0F61D3CA33500774289 /* VaingloryGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BCB0D61D3CA33500774289 /* VaingloryGuide */ = {
+			isa = PBXGroup;
+			children = (
+				59BCB0D71D3CA33500774289 /* AppDelegate.swift */,
+				59BCB0D91D3CA33500774289 /* ViewController.swift */,
+				59BCB0DB1D3CA33500774289 /* Main.storyboard */,
+				59BCB0E11D3CA33500774289 /* Assets.xcassets */,
+				59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */,
+				59BCB0E61D3CA33500774289 /* Info.plist */,
+				59BCB0DE1D3CA33500774289 /* VaingloryGuide.xcdatamodeld */,
+			);
+			path = VaingloryGuide;
+			sourceTree = "<group>";
+		};
+		59BCB0EE1D3CA33500774289 /* VaingloryGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				59BCB0EF1D3CA33500774289 /* VaingloryGuideTests.swift */,
+				59BCB0F11D3CA33500774289 /* Info.plist */,
+			);
+			path = VaingloryGuideTests;
+			sourceTree = "<group>";
+		};
+		59BCB0F91D3CA33500774289 /* VaingloryGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59BCB0FA1D3CA33500774289 /* VaingloryGuideUITests.swift */,
+				59BCB0FC1D3CA33500774289 /* Info.plist */,
+			);
+			path = VaingloryGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59BCB0D31D3CA33500774289 /* VaingloryGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BCB0FF1D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuide" */;
+			buildPhases = (
+				59BCB0D01D3CA33500774289 /* Sources */,
+				59BCB0D11D3CA33500774289 /* Frameworks */,
+				59BCB0D21D3CA33500774289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaingloryGuide;
+			productName = VaingloryGuide;
+			productReference = 59BCB0D41D3CA33500774289 /* VaingloryGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59BCB0EA1D3CA33500774289 /* VaingloryGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BCB1021D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuideTests" */;
+			buildPhases = (
+				59BCB0E71D3CA33500774289 /* Sources */,
+				59BCB0E81D3CA33500774289 /* Frameworks */,
+				59BCB0E91D3CA33500774289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BCB0ED1D3CA33500774289 /* PBXTargetDependency */,
+			);
+			name = VaingloryGuideTests;
+			productName = VaingloryGuideTests;
+			productReference = 59BCB0EB1D3CA33500774289 /* VaingloryGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59BCB0F51D3CA33500774289 /* VaingloryGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BCB1051D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuideUITests" */;
+			buildPhases = (
+				59BCB0F21D3CA33500774289 /* Sources */,
+				59BCB0F31D3CA33500774289 /* Frameworks */,
+				59BCB0F41D3CA33500774289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BCB0F81D3CA33500774289 /* PBXTargetDependency */,
+			);
+			name = VaingloryGuideUITests;
+			productName = VaingloryGuideUITests;
+			productReference = 59BCB0F61D3CA33500774289 /* VaingloryGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59BCB0CC1D3CA33500774289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mundomo;
+				TargetAttributes = {
+					59BCB0D31D3CA33500774289 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					59BCB0EA1D3CA33500774289 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 59BCB0D31D3CA33500774289;
+					};
+					59BCB0F51D3CA33500774289 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 59BCB0D31D3CA33500774289;
+					};
+				};
+			};
+			buildConfigurationList = 59BCB0CF1D3CA33500774289 /* Build configuration list for PBXProject "VaingloryGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59BCB0CB1D3CA33400774289;
+			productRefGroup = 59BCB0D51D3CA33500774289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BCB0D31D3CA33500774289 /* VaingloryGuide */,
+				59BCB0EA1D3CA33500774289 /* VaingloryGuideTests */,
+				59BCB0F51D3CA33500774289 /* VaingloryGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59BCB0D21D3CA33500774289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BCB0E51D3CA33500774289 /* LaunchScreen.storyboard in Resources */,
+				59BCB0E21D3CA33500774289 /* Assets.xcassets in Resources */,
+				59BCB0DD1D3CA33500774289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0E91D3CA33500774289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0F41D3CA33500774289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BCB0D01D3CA33500774289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BCB0DA1D3CA33500774289 /* ViewController.swift in Sources */,
+				59BCB0E01D3CA33500774289 /* VaingloryGuide.xcdatamodeld in Sources */,
+				59BCB0D81D3CA33500774289 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0E71D3CA33500774289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BCB0F01D3CA33500774289 /* VaingloryGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BCB0F21D3CA33500774289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BCB0FB1D3CA33500774289 /* VaingloryGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59BCB0ED1D3CA33500774289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BCB0D31D3CA33500774289 /* VaingloryGuide */;
+			targetProxy = 59BCB0EC1D3CA33500774289 /* PBXContainerItemProxy */;
+		};
+		59BCB0F81D3CA33500774289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BCB0D31D3CA33500774289 /* VaingloryGuide */;
+			targetProxy = 59BCB0F71D3CA33500774289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59BCB0DB1D3CA33500774289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BCB0DC1D3CA33500774289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59BCB0E31D3CA33500774289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BCB0E41D3CA33500774289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59BCB0FD1D3CA33500774289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BCB0FE1D3CA33500774289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59BCB1001D3CA33500774289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VaingloryGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59BCB1011D3CA33500774289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VaingloryGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59BCB1031D3CA33500774289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaingloryGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaingloryGuide.app/VaingloryGuide";
+			};
+			name = Debug;
+		};
+		59BCB1041D3CA33500774289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaingloryGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaingloryGuide.app/VaingloryGuide";
+			};
+			name = Release;
+		};
+		59BCB1061D3CA33500774289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaingloryGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VaingloryGuide;
+			};
+			name = Debug;
+		};
+		59BCB1071D3CA33500774289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaingloryGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mundomo.VaingloryGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VaingloryGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59BCB0CF1D3CA33500774289 /* Build configuration list for PBXProject "VaingloryGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BCB0FD1D3CA33500774289 /* Debug */,
+				59BCB0FE1D3CA33500774289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BCB0FF1D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BCB1001D3CA33500774289 /* Debug */,
+				59BCB1011D3CA33500774289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59BCB1021D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BCB1031D3CA33500774289 /* Debug */,
+				59BCB1041D3CA33500774289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59BCB1051D3CA33500774289 /* Build configuration list for PBXNativeTarget "VaingloryGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BCB1061D3CA33500774289 /* Debug */,
+				59BCB1071D3CA33500774289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59BCB0DE1D3CA33500774289 /* VaingloryGuide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59BCB0DF1D3CA33500774289 /* VaingloryGuide.xcdatamodel */,
+			);
+			currentVersion = 59BCB0DF1D3CA33500774289 /* VaingloryGuide.xcdatamodel */;
+			path = VaingloryGuide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59BCB0CC1D3CA33500774289 /* Project object */;
+}
